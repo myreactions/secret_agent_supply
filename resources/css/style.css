@@ -1,0 +1,73 @@
+/* Universal Styles */
+html {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+header span {
+  display: inline-block;
+  padding: 0.66rem 0;
+}
+
+/* Banner and Nav */
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+}
+.banner-box {
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+.banner-box span {
+  font-weight: bold;
+}
+.banner-box h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+}
+nav {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-between;
+}
+nav span {
+  display: inline-block;
+  padding: 0.75rem 0;
+}
+
+/* Main */
+.product img {
+  background-color: white;
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+/* Footer */
