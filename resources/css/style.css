@@ -64,10 +64,68 @@ nav span {
 }
 
 /* Main */
+main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  width: 960px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+}
 .product img {
   background-color: white;
   height: 9rem;
-  padding: 2rem 0;
+  width: 50%;
+  padding: 2rem;
+}
+.glasses img {
+  height: 5rem;
+  padding: 4rem;
+}
+.product span {
+  display: block;
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+.location-hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+}
+.location, .hours {
+  padding-bottom: 4rem;
+  width: 35%;
+}
+.black-box {
+  display: block;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.black {
+  color: black;
+  display: inline-block;
+  padding: 0.3rem 0;
 }
 
 /* Footer */
+footer {
+  height: 11.5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
